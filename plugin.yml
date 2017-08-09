@@ -1,0 +1,11 @@
+name: LobbyCore
+description: Server lobby core.
+version: 1.0
+author: PMMPCode
+api: [3.0.0, 3.0.0-ALPHA5]
+main: lobbycore\main
+commands:
+ lobby:
+  usage: /lobby
+  description: Return to the server hub.
+  alias: [hub]
